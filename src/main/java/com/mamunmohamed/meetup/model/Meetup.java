@@ -15,6 +15,9 @@ public class Meetup {
         this.place = place;
     }
 
+    public Meetup() {
+    }
+
     public UUID getId() {
         return id;
     }
